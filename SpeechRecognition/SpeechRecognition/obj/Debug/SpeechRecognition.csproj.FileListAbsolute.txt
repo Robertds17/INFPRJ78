@@ -1,0 +1,6 @@
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe.config
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.exe
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechRecognition.pdb
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\bin\Debug\SpeechClient.dll
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\obj\Debug\SpeechRecognition.exe
+E:\Robert\OneDrive\Documenten\Visual Studio 2017\Projects\SpeechRecognition\SpeechRecognition\obj\Debug\SpeechRecognition.pdb
