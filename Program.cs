@@ -12,9 +12,7 @@ using System.Net.Http;
 
 namespace SpeechSample
 {
-    /*
-     * This class demonstrates how to get a valid O-auth token.
-     */
+    
     public class Authentication
     {
         public static readonly string FetchTokenUri = "https://api.cognitive.microsoft.com/sts/v1.0";
@@ -22,7 +20,6 @@ namespace SpeechSample
         private string token;
         private Timer accessTokenRenewer;
 
-        //Access token expires every 10 minutes. Renew it every 9 minutes only.
         private const int RefreshTokenDuration = 9;
 
         public Authentication(string subscriptionKey)
@@ -30,7 +27,7 @@ namespace SpeechSample
             this.subscriptionKey = subscriptionKey;
             this.token = FetchToken(FetchTokenUri, subscriptionKey).Result;
 
-            // renew the token every specfied minutes
+            
             accessTokenRenewer = new Timer(new TimerCallback(OnTokenExpiredCallback),
                                            this,
                                            TimeSpan.FromMinutes(RefreshTokenDuration),
@@ -101,27 +98,20 @@ namespace SpeechSample
                 
             }
 
-            // Note: Sign up at https://azure.microsoft.com/en-us/try/cognitive-services/ to get a subscription key.  
-            // Navigate to the Speech tab and select Bing Speech API. Use the subscription key as Client secret below.
             Authentication auth = new Authentication(_Bingkey);
 
-            string requestUri = args[0];/*.Trim(new char[] { '/', '?' });*/
+            string requestUri = args[0];
 
             string host = @"speech.platform.bing.com";
-            string contentType = @"audio/wav; codec=""audio/pcm""; samplerate=16000";
+            string contentType = @"application/octet-stream";
 
-            /*
-             * Input your own audio file or use read from a microphone stream directly.
-             */
             string audioFile = args[1];
             string responseString;
             FileStream fs = null;
 
             try
             {
-                var token = auth.GetAccessToken();
-                Console.WriteLine("Token: {0}\n", token);
-                Console.WriteLine("Request Uri: " + requestUri + Environment.NewLine);
+                var token = auth.GetAccessToken();              
 
                 HttpWebRequest request = null;
                 request = (HttpWebRequest)HttpWebRequest.Create(requestUri);
@@ -156,9 +146,9 @@ namespace SpeechSample
                         requestStream.Flush();
                     }
 
-                    /*
-                     * Get the response from the service.
-                     */
+                    
+                     //Get the response from the service.
+                     
                     Console.WriteLine("Response:");
                     using (WebResponse response = request.GetResponse())
                     {
@@ -172,10 +162,15 @@ namespace SpeechSample
                     }
                 }
             }
-            catch (Exception ex)
-            {                
+            catch (WebException ex)
+            {                           
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    Console.WriteLine(reader.ReadToEnd());
+                }
                 return ex.Message;
-                
+
             }
         }
 
@@ -222,19 +217,23 @@ namespace SpeechSample
                     
                 }
             }
-            catch(Exception ex){                
+            catch (WebException ex)
+            {                           
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    Console.WriteLine(reader.ReadToEnd());
+                }
                 return ex.Message;
+
             }
 
         }
         public string CreateVoiceWithIdentification(string identificationProfileId, string file){                        
 
             string requestUri = "https://westus.api.cognitive.microsoft.com/spid/v1.0/identificationProfiles/"+ identificationProfileId+"/enroll?shortAudio=true";           
-            string contentType = "audio/wav; codec=audio/pcm; samplerate=16000";
-
-            /*
-             * Input your own audio file or use read from a microphone stream directly.
-             */
+            string contentType = "application/octet-stream";
+           
             string audioFile = file;
             string responseString;
             FileStream fs = null;
@@ -273,9 +272,6 @@ namespace SpeechSample
                         requestStream.Flush();
                     }
 
-                    /*
-                     * Get the response from the service.
-                     */
                     Console.WriteLine("Response:");
                     using (WebResponse response = request.GetResponse())
                     {
@@ -289,8 +285,13 @@ namespace SpeechSample
                     }
                 }
             }
-            catch (Exception ex)
-            {                            
+            catch (WebException ex)
+            {                           
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    Console.WriteLine(reader.ReadToEnd());
+                }
                 return ex.Message;
 
             }
@@ -321,28 +322,99 @@ namespace SpeechSample
                     return responseString;
                 }
             }
-            catch(Exception ex){                
+            catch (WebException ex)
+            {                           
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    Console.WriteLine(reader.ReadToEnd());
+                }
                 return ex.Message;
+
             }
 
+        }
+        public string FindSpeakers(string Ids, string file){
+            string requestUri = "https://westus.api.cognitive.microsoft.com/spid/v1.0/identify?identificationProfileIds="+ Ids+"&shortAudio=true";           
+            string contentType = "application/octet-stream";
+           
+            string audioFile = file;
+            string responseString;
+            FileStream fs = null;
+
+            try
+            {                
+                HttpWebRequest request = null;
+                request = (HttpWebRequest)HttpWebRequest.Create(requestUri);
+                request.SendChunked = true;
+                request.Accept = @"application/json;text/xml";
+                request.Method = "POST";
+                request.ProtocolVersion = HttpVersion.Version11;                
+                request.ContentType = contentType;
+                request.Headers["Ocp-Apim-Subscription-Key"] = _Reckey;
+
+                using (fs = new FileStream(audioFile, FileMode.Open, FileAccess.Read))
+                {
+
+                    /*
+                     * Open a request stream and write 1024 byte chunks in the stream one at a time.
+                     */
+                    byte[] buffer = null;
+                    int bytesRead = 0;
+                    using (Stream requestStream = request.GetRequestStream())
+                    {
+                        /*
+                         * Read 1024 raw bytes from the input audio file.
+                         */
+                        buffer = new Byte[checked((uint)Math.Min(1024, (int)fs.Length))];
+                        while ((bytesRead = fs.Read(buffer, 0, buffer.Length)) != 0)
+                        {
+                            requestStream.Write(buffer, 0, bytesRead);
+                        }
+
+                        // Flush
+                        requestStream.Flush();
+                    }
+
+                    Console.WriteLine("Response:");
+                    using (WebResponse response = request.GetResponse())
+                    {                        
+                        Console.WriteLine(((HttpWebResponse)response).StatusCode);
+
+                        using (StreamReader sr = new StreamReader(response.GetResponseStream()))
+                        {
+                            responseString = sr.ReadToEnd();
+                        }                        
+                        return responseString;
+                    }
+                }
+            }
+            catch (WebException ex)
+            {                           
+                using (var stream = ex.Response.GetResponseStream())
+                using (var reader = new StreamReader(stream))
+                {
+                    Console.WriteLine(reader.ReadToEnd());
+                }
+                return ex.Message;
+
+            }
         }
 
     }
 
-    /*
-     * This sample program shows how to send an speech recognition request to the 
-     * Microsoft Speech service.      
-     */
     class Program
     {
         
         static void Main(string[] args )
         {
-            APIcalls Calls = new APIcalls("Recognition key","BingKey");
-            //Calls.Bing("byebye.wav");
+            APIcalls Calls = new APIcalls("Speakerkey","Bingkey");
+            Console.WriteLine(Calls.Bing("byebye.wav"));
             //Calls.Createid();
             //Console.WriteLine(Calls.CreateVoiceWithIdentification("f81024d2-33c8-4f39-87b4-4af93f2d109b","my_voice.wav"));
-            Console.WriteLine(Calls.GetAllProfiles());
+            //Console.WriteLine(Calls.FindSpeakers("f81024d2-33c8-4f39-87b4-4af93f2d109b,65bf55bf-1dc4-4545-966c-7fb5d750cd00","byebye.wav"));
+            //Console.WriteLine(Calls.GetAllProfiles());
+
         }
     }
 }
