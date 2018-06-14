@@ -22,7 +22,7 @@ namespace SpeechRecognition {
         public event PropertyChangedEventHandler PropertyChanged;
         public MicrophoneRecognitionClient MicClient;
         SpeechRecognitionMode Mode = SpeechRecognitionMode.LongDictation;
-        string subscriptionkey = "09543b3217464199920fc826f930929c"; // << enter subscription key(personal)
+        string subscriptionkey = ""; // << enter subscription key(personal)
 
         public void program() {
             CreateMicrophoneRecognitionClient();
