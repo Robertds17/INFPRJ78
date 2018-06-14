@@ -1,0 +1,124 @@
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\NAudio.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\NAudio.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Form1.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.IO.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.IO.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.IO.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\bin\Debug\SpeechClient.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\obj\Debug\WpfApp1.CreateUserID.resources
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.IO.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\NAudio.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\SpeechClient.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.IO.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.IO.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.pdb
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\NAudio.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.CreateUserID.resources
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Form1.resources
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.Cache
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojResolveAssemblyReference.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.IO.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\NAudio.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\SpeechClient.dll
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Attributes.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.IO.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.IO.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.JSON.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.pdb
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Bond.Reflection.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\NAudio.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.CreateUserID.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Form1.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Code\School\WPFCongnitive\WpfApp1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
