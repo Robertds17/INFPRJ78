@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace WpfApp1
 {
@@ -22,26 +23,35 @@ namespace WpfApp1
 
         APICalls.APICalls Calls = new APICalls.APICalls();
         string file = "";
+        DatabaseConnection DB = new DatabaseConnection();
 
 
         private void CreateProfile_Clicked(object sender, EventArgs e)
         {
             createnewprofile.Enabled = false;
             string id;
-            createnewprofile.Enabled = false;
-            string jsonresponse = Calls.CreateProfile();
-            dynamic json = JsonConvert.DeserializeObject(jsonresponse);            
-            if(json.identificationProfileId == null)
+            if (namebox.Text == "" || namebox.Text == "'Name here'")
             {
-                id = "error";
+                MessageBox.Show("Please enter a name");
             }
             else
             {
-                id = json.identificationProfileId;
-                
-            }            
-            dataGridView1.Rows.Add(id, "ToDo");
+                string name = namebox.Text;
+                string jsonresponse = Calls.CreateProfile();
+                dynamic json = JsonConvert.DeserializeObject(jsonresponse);
+                if (json.identificationProfileId == null)
+                {
+                    id = "error";
+                }
+                else
+                {
+                    id = json.identificationProfileId;
+                    DB.InsertID(id, name);
 
+                }
+
+                dataGridView1.Rows.Add(id, "ToDo",name);
+            }
             createnewprofile.Enabled = true; 
         }
 
@@ -70,9 +80,10 @@ namespace WpfApp1
                 
                 foreach(var profile in profiles.Children())
                 {
-                    
+                    string name = DB.GetName(profile.First().First().ToString());                    
                     //profilelist.Items.Add(profile.First().First().ToString()); //+ " Status:  " + profile.First().Next.Next.Next.Next.Next.Next.First().ToString());
-                    dataGridView1.Rows.Add(profile.First().First().ToString(), profile.First().Next.Next.Next.Next.Next.Next.First().ToString());
+                    dataGridView1.Rows.Add(profile.First().First().ToString(), profile.First().Next.Next.Next.Next.Next.Next.First().ToString(),name);
+                    
                 }
 
             }
@@ -211,6 +222,21 @@ namespace WpfApp1
             }
             
             identifyspeaker.Enabled = true;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void CreateUserID_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

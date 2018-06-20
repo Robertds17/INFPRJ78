@@ -5,11 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Record/TTS" HorizontalAlignment="Left" Margin="576,85,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="TTS_Click"/>
-        <Button Content="Profiles" HorizontalAlignment="Left" Margin="576,234,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="Profiles_Click"/>
-        <Button Content="Detect Silence" HorizontalAlignment="Left" Margin="100,234,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="Silence_Click"/>
+        Title="Transcriber Tool" Height="448.437" Width="607.812">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="file:///C:/Users/Dani/Documents/Visual studio code/School/Project/project7-8/Speaker/background.png"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,3.2,11">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="379*"/>
+            <ColumnDefinition Width="213*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Record/TTS" HorizontalAlignment="Left" Margin="236,73,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="TTS_Click"/>
+        <Button Content="Profiles" HorizontalAlignment="Left" Margin="236,283,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="Profiles_Click"/>
+        <Button Content="Transcribe" HorizontalAlignment="Left" Margin="236,180,0,0" VerticalAlignment="Top" Width="122" Height="62" Click="Silence_Click"/>
 
     </Grid>
 </Window>

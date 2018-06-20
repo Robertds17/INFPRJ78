@@ -28,7 +28,7 @@ namespace WpfApp1
         public string text = "";
         public WaveIn waveSource = null;
         public WaveFileWriter waveFile = null;
-        public string directory = @"C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\Files\temp.wav";
+        public string directory = @"C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\speaker\Files\temp.wav";
         //@"C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\WpfApp1\Files\temp.wav";
         public string file = "";
         private void button1_Click(object sender, EventArgs e)
@@ -45,6 +45,7 @@ namespace WpfApp1
             waveFile = new WaveFileWriter(directory, waveSource.WaveFormat);
 
             waveSource.StartRecording();
+            button1.Enabled = false;
             button2.Enabled = true;
             
         }
@@ -79,6 +80,7 @@ namespace WpfApp1
         {
             button2.Enabled = false;
             waveSource.StopRecording();
+            button1.Enabled = true;
         }
 
         private void button3_Click(object sender, EventArgs e)

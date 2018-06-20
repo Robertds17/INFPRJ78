@@ -17,8 +17,8 @@ namespace APICalls
 
         public APICalls()
         {
-            _BingKey = "Bingkey";
-            _RecKey = "Reckey";
+            _BingKey = "";
+            _RecKey = "";
         }
 
         public string Bing(string file)

@@ -39,3 +39,54 @@ C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\Wpf
 C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\obj\Debug\Speaker.csproj.GenerateResource.Cache
 C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Attributes.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.IO.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.JSON.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Reflection.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\NAudio.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Newtonsoft.Json.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\SpeechClient.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Attributes.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Attributes.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.IO.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.IO.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.JSON.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.JSON.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Reflection.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Bond.Reflection.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Microsoft.VisualStudio.Threading.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Microsoft.VisualStudio.Validation.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\NAudio.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Newtonsoft.Json.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\Speaker.csprojResolveAssemblyReference.cache
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\App.g.cs
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\MainWindow.baml
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.CreateUserID.resources
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.Form1.resources
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.Silence.resources
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\Speaker.csproj.GenerateResource.cache
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\Speaker.csproj.CoreCompileInputs.cache
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\Speaker.csproj.CopyComplete
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Code\School\Project7-8\Speaker\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Google.Protobuf.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\MySql.Data.dll
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\Google.Protobuf.xml
+D:\Code\School\Project7-8\Speaker\WpfApp1\bin\Debug\MySql.Data.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\bin\Debug\MySql.Data.dll
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\bin\Debug\Google.Protobuf.xml
+C:\Users\Dani\Documents\Visual studio code\School\Project\project7-8\Speaker\WpfApp1\bin\Debug\MySql.Data.xml

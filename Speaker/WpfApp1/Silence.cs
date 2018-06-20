@@ -21,6 +21,7 @@ namespace WpfApp1
         }
         List<string> files = new List<string>();
         APICalls.APICalls Calls = new APICalls.APICalls();
+        DatabaseConnection DB = new DatabaseConnection();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -40,28 +41,12 @@ namespace WpfApp1
             }
         }
 
-        private void DetectSilence_Clicked(object sender, EventArgs e)
-        {
-            detectsilence.Enabled = false;
-            if (files.Count == 0)
-            {
-                MessageBox.Show("please select a file");
-            }
-            else
-            {
-                using (AudioFileReader reader = new AudioFileReader(files.First()))
-                {
-                    TimeSpan duration = reader.GetSilenceDuration(AudioReader.SilenceLocation.Start);
-                    Console.WriteLine(duration.TotalMilliseconds);
-                }
-            }
-            detectsilence.Enabled = true;
         
-        }
 
         private void Transcribe_Clicked(object sender, EventArgs e)
         {
             transcribe.Enabled = false;
+            resultview.Clear();
             string output = "";
             string ids = "";
             string jsonresponse = Calls.GetAllProfiles();
@@ -101,16 +86,27 @@ namespace WpfApp1
                 }
                 else
                 {
-                    
 
-                    string IDresponse = Calls.ReturnSpeaker(ids,file);
+
+                    string IDresponse = Calls.ReturnSpeaker(ids, file);
                     output += json.NBest[0].Display;
-                    output += " ID:  ";
-                    output += IDresponse;
+                    output += " ID:  ";                    
+                    if (IDresponse != "Could not recognize speaker")
+                    {                        
+                        var name = DB.GetName(IDresponse);
+                        string result = json.NBest[0].Display + " -- " + name;
+                        resultview.Items.Add(result);
+                    }
+                    else
+                    {
+                        Console.WriteLine(json.NBest[0].Display + " -- " + IDresponse);
+                        string result = json.NBest[0].Display + " -- " + IDresponse;
+                        resultview.Items.Add(result);                        
+                    }
                 }
-                output += "   ||   ";
+                
             }
-            MessageBox.Show(output);
+            
             transcribe.Enabled = true;
         }
     }
